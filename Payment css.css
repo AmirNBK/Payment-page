@@ -270,69 +270,52 @@ body{
     right: 75px;
     top: 49px;
 }
-.account{
+.account,.shipping,.payment,.review{
     width: 69px;
     height: 65px;
-    border: solid 1px #eccfcb;
     border-radius: 50%;
     position: absolute;
     top: 17px;
-    left: 850px;
     background-color:  #ffffff;
 }
-.account-pic{
+.account-pic,.truck,.card,.star-r{
     position: absolute;
+}
+.account{
+    border: solid 1px #eccfcb;
+    left: 850px;
+}
+.account-pic{
     top: 30px;
     left: 869px;
     width: 32px;
     height: 32px;
 }
 .shipping{
-    width: 69px;
-    height: 65px;
     border: solid 1px #eccfcb;
-    border-radius: 50%;
-    position: absolute;
-    top: 17px;
     left: 1050px;
-    background-color:  #ffffff;
 }
 .truck{
-    position: absolute;
     top: 29px;
     left: 1066px;
     width: 40px;
     height: 40px;
 }
 .payment{
-    width: 69px;
-    height: 65px;
     border: solid 1px #eccfcb;
-    border-radius: 50%;
-    position: absolute;
-    top: 17px;
     left: 1250px;
-    background-color:  #ffffff;
 }
 .card{
-    position: absolute;
     top: 30px;
     left: 1265px;
     width: 40px;
     height: 40px;
 }
 .review{
-    width: 69px;
-    height: 65px;
     border: solid 1px ;
-    border-radius: 50%;
-    position: absolute;
-    top: 17px;
     left: 1410px;
-    background-color:  #ffffff;
 }
 .star-r{
-    position: absolute;
     top: 30px;
     left: 1425px;
     width: 40px;
