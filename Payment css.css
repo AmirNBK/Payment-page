@@ -1,0 +1,340 @@
+body{
+    background: #ffffff;
+}
+.Beats-by-Dre {
+    font-family: Chivo;
+    font-size: 65px;
+    line-height: 1.18;
+    letter-spacing: 0.33px;
+    color: #393e46;
+    position: absolute;
+    left: 96px;
+    top: 20px;
+}
+.price{
+    font-family: Chivo;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    color: #ff7600;
+    position: absolute;
+    left: 96px;
+    top: 90px;
+}
+.star1,.star2,.star3,.star4{
+    width: 29px;
+    position: absolute;
+}
+.star1 {
+    left: 277px;
+    top: 98px;
+}
+.star2{
+    left: 310px;
+    top: 98px;
+}
+.star3{
+    left: 343px;
+    top: 98px;
+}
+.star4{
+    left: 376px;
+    top: 98px;
+}
+.Beats{
+    position: absolute;
+    left: 18px;
+    top: 151px;
+    width: 580px;
+    height: 560px;
+}
+.Background {
+    margin: 149px 0px 0px 86px;
+    width: 480px;
+    height: 511px;
+    border-radius: 16px;
+    background-color: #eccfcb;
+}
+.Payment {
+    font-family: Chivo;
+    font-size: 55px;
+    line-height: 1.18;
+    letter-spacing: 19.5px;
+    color: #393e46;
+    position: absolute;
+    right: 320px;
+    top: 143px;
+}
+.cardholder-name{
+    right: 462px;
+    top: 250px;
+}
+.cardholder-name-line{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #707070;
+    position: absolute;
+    right: 235px;
+    top: 300px;
+    width: 430px;
+}
+.cardholder-name-line:focus{
+    outline: none;
+}
+.cardholder-number{
+    right: 430px;
+    top: 355px;
+}
+.cardholder-number,.cardholder-name{
+    font-family: Chivo;
+    font-size: 22px;
+    color: rgba(112, 112, 112, 0.57);
+    position: absolute;
+}
+.cardholder-number-line1{
+    right: 585px;
+}
+.cardholder-number-line2{
+    right: 485px;
+}
+.cardholder-number-line3{
+    right: 385px;
+}
+.cardholder-number-line4{
+    right: 285px;
+}
+.cardholder-number-line1,.cardholder-number-line2,.cardholder-number-line3,.cardholder-number-line4{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #707070;
+    position: absolute;
+    top: 394px;
+    width: 80px;
+    text-align: center;
+}
+.cardholder-number-line4:focus,.cardholder-number-line3:focus,.cardholder-number-line2:focus,.cardholder-number-line1:focus{
+    outline: none;
+}
+.visa {
+    position: absolute;
+    width: 65.9px;
+    right: 190px;
+    top: 373px;
+    cursor: pointer;
+}
+.paypal {
+    position: absolute;
+    width: 76.9px;
+    right: 90px;
+    top: 368px;
+    cursor: pointer;
+}
+.expiration{
+    font-family: Chivo;
+    font-size: 22px;
+    color: rgba(112, 112, 112, 0.57);
+    position: absolute;
+    right: 481px;
+    top: 450px;
+}
+.cvv{
+    font-family: Chivo;
+    font-size: 22px;
+    color: rgba(112, 112, 112, 0.57);
+    position: absolute;
+    right: 316px;
+    top: 451px;
+}
+.cvv-line {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #707070;
+    position: absolute;
+    top: 483px;
+    width: 54px;
+    text-align: center;
+    right: 305px;
+}
+.cvv-line:focus{
+    outline: none;
+}
+.expiration-line-right{
+    right: 507px;
+}
+.expiration-line-right:focus{
+    outline: none;
+}
+.exp{
+    position: absolute;
+    top: 481px;
+    right: 565px;
+    font-size: 30px;
+    color: #707070;
+}
+.expiration-line-left{
+    right: 590px;
+}
+.expiration-line-left:focus{
+    outline: none;
+}
+.expiration-line-left,.expiration-line-right{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #707070;
+    position: absolute;
+    top: 483px;
+    width: 43px;
+    text-align: center;
+}
+.save {
+    position: absolute;
+    right: 450px;
+    top: 550px;
+    font-family: Chivo;
+    font-size: 16px;
+    color: #393e46;
+}
+.checkbox{
+    position: absolute;
+    right: 645px;
+    top: 551px;
+}
+.discount {
+    font-family: Chivo;
+    font-size: 18px;
+    letter-spacing: 0.09px;
+    color: rgba(112, 112, 112, 0.57);
+    top: 600px;
+    right: 540px;
+    position: absolute;
+}
+.discount-line{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #707070;
+    position: absolute;
+    top: 626px;
+    width: 76px;
+    text-align: center;
+    right: 580px;
+}
+.discount-line:focus{
+    outline: none;
+}
+.discount-button{
+    width: 75px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #7c83fd;
+    color: #7c83fd;
+    position: absolute;
+    top: 619px;
+    right: 458px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.discount-button:hover{
+    color: #F9F9F9;
+    background: #7c83fd;
+}
+.pay {
+    font-family: Bahnschrift;
+    font-size: 30px;
+    border: none;
+    position: absolute;
+    right: 250px;
+    bottom: 24px;
+    width: 311px;
+    height: 58px;
+    border-radius: 18px;
+    background-color: #c9cbff;
+    color: #eff8ff;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.pay:hover{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.line {
+    width: 655px;
+    border: solid 2px #eccfcb;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    position: absolute;
+    right: 75px;
+    top: 49px;
+}
+.account{
+    width: 69px;
+    height: 65px;
+    border: solid 1px #eccfcb;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 850px;
+    background-color:  #ffffff;
+}
+.account-pic{
+    position: absolute;
+    top: 30px;
+    left: 869px;
+    width: 32px;
+    height: 32px;
+}
+.shipping{
+    width: 69px;
+    height: 65px;
+    border: solid 1px #eccfcb;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 1050px;
+    background-color:  #ffffff;
+}
+.truck{
+    position: absolute;
+    top: 29px;
+    left: 1066px;
+    width: 40px;
+    height: 40px;
+}
+.payment{
+    width: 69px;
+    height: 65px;
+    border: solid 1px #eccfcb;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 1250px;
+    background-color:  #ffffff;
+}
+.card{
+    position: absolute;
+    top: 30px;
+    left: 1265px;
+    width: 40px;
+    height: 40px;
+}
+.review{
+    width: 69px;
+    height: 65px;
+    border: solid 1px ;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 1410px;
+    background-color:  #ffffff;
+}
+.star-r{
+    position: absolute;
+    top: 30px;
+    left: 1425px;
+    width: 40px;
+    height: 40px;
+}
